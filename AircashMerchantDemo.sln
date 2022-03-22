@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{8C483E3B-458D-48D0-8F6D-EBE54A40B32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{8C483E3B-458D-48D0-8F6D-EBE54A40B32B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. CrossCutting", "0. CrossCutting", "{8A46B0D6-D801-4544-9D4F-7178AC88E4D9}"
 EndProject
@@ -17,7 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. WebApi", "4. WebApi", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Presentation", "5. Presentation", "{BBE474C3-1772-4996-96C6-BC699542011A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{D35AAA76-DC49-489A-A8EE-5181293200B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{D35AAA76-DC49-489A-A8EE-5181293200B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{936202AF-A408-481D-9E5B-AF230FAFDA55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,12 +35,17 @@ Global
 		{D35AAA76-DC49-489A-A8EE-5181293200B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D35AAA76-DC49-489A-A8EE-5181293200B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D35AAA76-DC49-489A-A8EE-5181293200B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936202AF-A408-481D-9E5B-AF230FAFDA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936202AF-A408-481D-9E5B-AF230FAFDA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936202AF-A408-481D-9E5B-AF230FAFDA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936202AF-A408-481D-9E5B-AF230FAFDA55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D35AAA76-DC49-489A-A8EE-5181293200B4} = {A7B8581B-F49B-476B-8DF0-148038444F6F}
+		{936202AF-A408-481D-9E5B-AF230FAFDA55} = {7EE8A3C3-0129-4498-942A-B9453986B406}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8995D13D-645E-4681-8712-5850AB7AA4E4}
