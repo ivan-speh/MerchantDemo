@@ -13,10 +13,10 @@ namespace DataAccess.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Amount = table.Column<double>(type: "float", nullable: false),
-                    IsoCurrencyCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TransactionId = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    AircashTransactionId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Amount = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    IsoCurrencyCode = table.Column<string>(type: "nvarchar(3)", maxLength: 3, nullable: true),
+                    TransactionId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    AircashTransactionId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     DateTimeUTC = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>

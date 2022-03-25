@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(AircashSimulatorContext))]
-    [Migration("20220325075327_TransactionMapperAdded")]
+    [Migration("20220325091454_TransactionMapperAdded")]
     partial class TransactionMapperAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,20 +28,22 @@ namespace DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("AircashTransactionId")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("AircashTransactionId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<double>("Amount")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Amount")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<DateTime>("DateTimeUTC")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("IsoCurrencyCode")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(3)
+                        .HasColumnType("nvarchar(3)");
 
-                    b.Property<string>("TransactionId")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("TransactionId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
