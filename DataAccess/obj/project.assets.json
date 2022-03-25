@@ -1523,6 +1523,10 @@
       "Domain.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.15"
+        },
         "compile": {
           "bin/placeholder/Domain.Entities.dll": {}
         },
