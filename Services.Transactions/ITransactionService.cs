@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Services.Transactions
 {
-    interface ITransactionService
+    public interface ITransactionService
     {
         Task<List<TransactionDto>> GetTransactions();
+        Task<int> AddTransactions(TransactionDto transactionDto);
     }
 }

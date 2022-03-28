@@ -1,4 +1,6 @@
 ﻿using DataAccess;
+using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,16 +12,16 @@ namespace Services.Transactions
 {
     public class TransactionService : ITransactionService
     {
-        private AircashSimulatorContext AircasSimulatorContext;
+        private AircashSimulatorContext AircashSimulatorContext;
         public TransactionService(AircashSimulatorContext aircashSimulatorContext)
         {
-            AircasSimulatorContext = aircashSimulatorContext;
+            AircashSimulatorContext = aircashSimulatorContext;
 
         }
 
-        public Task<List<TransactionDto>> GetTransactions()
+        public async Task<List<TransactionDto>> GetTransactions()
         {
-            var transaction = AircasSimulatorContext.TransactionDto.Select(x => new TransactionDto()
+            var transaction = await AircashSimulatorContext.Transactions.Select(x => new TransactionDto()
             {
                 Id = x.Id,
                 Amount = x.Amount,
@@ -30,14 +32,24 @@ namespace Services.Transactions
             }).ToListAsync();
 
             return transaction;
-           // throw new NotImplementedException();
         }
 
-        public Task GetAllTransactionsAsync()
+        public async Task<int> AddTransactions(TransactionDto transactionDto)
         {
-            throw new NotImplementedException();
+            var transaction2 = new TransactionEntity()
+            {
+                Amount = transactionDto.Amount,
+                IsoCurrencyCode = transactionDto.IsoCurrencyCode,
+                TransactionId = transactionDto.TransactionId,
+                AircashTransactionId = transactionDto.AircashTransactionId,
+                DateTimeUTC = transactionDto.DateTimeUTC
+
+            };
+            AircashSimulatorContext.Transactions.Add(transaction2);
+            await AircashSimulatorContext.SaveChangesAsync();
+
+            return transaction2.Id;
+
         }
     }
-
-  
 }
