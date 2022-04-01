@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Services.Transactions;
 
 namespace WebApi
 {
@@ -36,6 +37,7 @@ namespace WebApi
             });
 
             services.AddDbContext<AircashSimulatorContext>(options => options.UseSqlServer(Configuration["DefaultConnection:ConnectionStrings"]), ServiceLifetime.Transient);
+            services.AddTransient<ITransactionService, TransactionService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Services.Transactions;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
 
     public class TransactionController : Controller
@@ -19,14 +20,14 @@ namespace WebApi.Controllers
             _transactionService1 = transactionService1;
         }
 
-        [HttpGet("")]
+        [HttpGet]
         public async Task<IActionResult> GetTransactions()
         {
-            var transactionDto = await _transactionService.GetTransactions();
-            return Ok(transactionDto);
+            return Ok(await _transactionService.GetTransactions());
+           
         }
 
-        [HttpPost("")]
+        [HttpPost]
         public async Task<IActionResult> AddTransactions([FromBody] TransactionDto transactionDto)
         {
             var id = await _transactionService.AddTransactions(transactionDto);
