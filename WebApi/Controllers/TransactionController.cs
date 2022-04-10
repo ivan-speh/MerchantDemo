@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Services.Transactions;
+using Services.Signature;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
 
 namespace WebApi.Controllers
 {
@@ -13,12 +15,15 @@ namespace WebApi.Controllers
     {
         private readonly ITransactionService _transactionService;
         private readonly ITransactionService _transactionService1;
+        private readonly ISignatureService _signatureService;
 
-        public TransactionController(ITransactionService transactionService, ITransactionService transactionService1)
+        public TransactionController(ITransactionService transactionService, ITransactionService transactionService1, ISignatureService signatureService)
         {
             _transactionService = transactionService;
             _transactionService1 = transactionService1;
+            _signatureService = signatureService;
         }
+
 
         [HttpGet]
         public async Task<IActionResult> GetTransactions()
@@ -33,5 +38,15 @@ namespace WebApi.Controllers
             var id = await _transactionService.AddTransactions(transactionDto);
             return CreatedAtAction(nameof(GetTransactions), new { id = id, controller = "Transaction" }, id);
         }
+
+        
+        [HttpGet]
+        public async Task<IActionResult> GenerateSignature()
+        {
+            return Ok(await _signatureService.GenerateSignature());
+
+        }
     }
+
+
 }

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6CJEJKmYqtwAvDryq/ScUH18NZapFzIBBvgGI/En2E4TbLD3QGnvYrent7J6eLEt0ws5CAoXaK5XWnBb1xHyWg==",
+  "dgSpecHash": "G4jC1Syq9OwHp6DEROu/3z5gNF0IvYDYrBgf/A3EtyLObrZ4ER8VH++eBngCQt/G7JwL1aqFeswRUV/3pavg5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brigita\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Brigita\\.nuget\\packages\\microchap\\1.2.2.2\\microchap.1.2.2.2.nupkg.sha512",
     "C:\\Users\\Brigita\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Brigita\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Brigita\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -107,5 +108,16 @@
     "C:\\Users\\Brigita\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Brigita\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MicroCHAP 1.2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MicroCHAP",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

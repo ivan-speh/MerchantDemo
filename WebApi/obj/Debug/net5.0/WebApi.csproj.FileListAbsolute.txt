@@ -65,3 +65,6 @@ C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Humani
 C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Services.Transactions.dll
 C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Services.Transactions.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\MicroCHAP.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Services.Signature.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Services.Signature.pdb

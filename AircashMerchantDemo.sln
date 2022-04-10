@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Entities", "Domain.E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{936202AF-A408-481D-9E5B-AF230FAFDA55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Transactions", "Services.Transactions\Services.Transactions.csproj", "{E30D04BF-1C00-4230-BDBD-99555C03663F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Transactions", "Services.Transactions\Services.Transactions.csproj", "{E30D04BF-1C00-4230-BDBD-99555C03663F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Signature", "Services.Signature\Services.Signature.csproj", "{C66A8ED0-E1B4-4617-802B-34842AC5A781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E30D04BF-1C00-4230-BDBD-99555C03663F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E30D04BF-1C00-4230-BDBD-99555C03663F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E30D04BF-1C00-4230-BDBD-99555C03663F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66A8ED0-E1B4-4617-802B-34842AC5A781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66A8ED0-E1B4-4617-802B-34842AC5A781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66A8ED0-E1B4-4617-802B-34842AC5A781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66A8ED0-E1B4-4617-802B-34842AC5A781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{D35AAA76-DC49-489A-A8EE-5181293200B4} = {A7B8581B-F49B-476B-8DF0-148038444F6F}
 		{936202AF-A408-481D-9E5B-AF230FAFDA55} = {7EE8A3C3-0129-4498-942A-B9453986B406}
 		{E30D04BF-1C00-4230-BDBD-99555C03663F} = {E463EBF9-BA81-4AC7-983E-E19AFAA61DC9}
+		{C66A8ED0-E1B4-4617-802B-34842AC5A781} = {E463EBF9-BA81-4AC7-983E-E19AFAA61DC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8995D13D-645E-4681-8712-5850AB7AA4E4}
