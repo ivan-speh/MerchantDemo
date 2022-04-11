@@ -1,0 +1,12 @@
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\Services.Signature.deps.json
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\Services.Signature.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\ref\Services.Signature.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\Services.Signature.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.csproj.AssemblyReference.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.AssemblyInfoInputs.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.AssemblyInfo.cs
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.csproj.CoreCompileInputs.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\ref\Services.Signature.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.pdb
