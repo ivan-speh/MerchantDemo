@@ -11,15 +11,6 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "MicroCHAP/1.2.2.2": {
-        "type": "package",
-        "compile": {
-          "lib/net45/MicroCHAP.dll": {}
-        },
-        "runtime": {
-          "lib/net45/MicroCHAP.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -1620,6 +1611,19 @@
           "bin/placeholder/Domain.Entities.dll": {}
         }
       },
+      "Services.Setting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.Setting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Setting.dll": {}
+        }
+      },
       "Services.Signature/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1660,18 +1664,6 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
-      ]
-    },
-    "MicroCHAP/1.2.2.2": {
-      "sha512": "5j5+mBXvmAj1JHdYD6tjq55TSVwneeatJ9NnxwPrYZngKV9qMa1nhIISGVe97+qsQDeaw6yJuLPiqljbToOI1A==",
-      "type": "package",
-      "path": "microchap/1.2.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/MicroCHAP.dll",
-        "microchap.1.2.2.2.nupkg.sha512",
-        "microchap.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -6016,6 +6008,11 @@
       "path": "../Domain.Entities/Domain.Entities.csproj",
       "msbuildProject": "../Domain.Entities/Domain.Entities.csproj"
     },
+    "Services.Setting/1.0.0": {
+      "type": "project",
+      "path": "../Services.Setting/Services.Setting.csproj",
+      "msbuildProject": "../Services.Setting/Services.Setting.csproj"
+    },
     "Services.Signature/1.0.0": {
       "type": "project",
       "path": "../Services.Signature/Services.Signature.csproj",
@@ -6030,11 +6027,12 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DataAccess >= 1.0.0",
-      "MicroCHAP >= 1.2.2.2",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.15",
+      "Services.Setting >= 1.0.0",
       "Services.Signature >= 1.0.0",
       "Services.Transactions >= 1.0.0",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "System.Collections >= 4.3.0"
     ]
   },
   "packageFolders": {
@@ -6072,6 +6070,9 @@
             "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj"
             },
+            "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj": {
+              "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj"
+            },
             "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj": {
               "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj"
             },
@@ -6091,10 +6092,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "MicroCHAP": {
-            "target": "Package",
-            "version": "[1.2.2.2, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -6104,6 +6101,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
+          },
+          "System.Collections": {
+            "target": "Package",
+            "version": "[4.3.0, )"
           }
         },
         "imports": [
@@ -6127,17 +6128,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MicroCHAP 1.2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "MicroCHAP",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }
