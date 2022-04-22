@@ -11,16 +11,16 @@ namespace WebApi.Controllers
     public class SettingControler : Controller
     {
         private readonly ISettingService _settingsService;
-        private readonly ISettingService _settingsService1;
 
-        public SettingControler(ISettingService settingService, ISettingService settingService1)
+
+        public SettingControler(ISettingService settingService)
         {
             _settingsService = settingService;
-            _settingsService1 = settingService1;
         }
 
+      
         [HttpGet]
-        public Dictionary<string, string> GetSettings()
+        public async Task<IActionResult> GetSettings()
         {
             return Ok(_settingsService.GetSettings());
 
@@ -29,7 +29,9 @@ namespace WebApi.Controllers
         [HttpGet]
         public async Task<IActionResult> RefreshSettings()
         {
-            return Ok(await _settingsService1.RefreshSettings());
+            await _settingsService.RefreshSettings();
+            return Ok();
         }
     }
+
 }

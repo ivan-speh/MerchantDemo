@@ -46,6 +46,11 @@ namespace WebApi.Controllers
             return Ok(await _signatureService.GenerateSignature());
 
         }
+
+        /*public static IActionResult string GenerateSignature(string dataToSign, string certificatePath, string certificatePass)
+        {
+            return Ok(await _signatureService.GenerateSignature());
+        }*/
     }
 
 
