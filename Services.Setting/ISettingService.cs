@@ -10,5 +10,7 @@ namespace Services.Setting
     {
         Dictionary<string, string> GetSettings();
         Task RefreshSettings();
+
+        string PrivateKeyPath { get; }
     }
 }

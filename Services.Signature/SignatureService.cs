@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Services.Signature
 {
-    public class SignatureService // : ISignatureService
+    public class SignatureService //: ISignatureService
     {
         /// <summary>
         /// Method used to generate signatures based on input data and selected certificates.
