@@ -39,19 +39,10 @@ namespace WebApi.Controllers
             return CreatedAtAction(nameof(GetTransactions), new { id = id, controller = "Transaction" }, id);
         }
 
-        
         [HttpGet]
-        public async Task<IActionResult> GenerateSignature()
+        public async Task<IActionResult> GenerateSignature(string dataToSign)
         {
-            return Ok(await _signatureService.GenerateSignature());
-
+            return Ok(await _signatureService.GenerateSignature(dataToSign));
         }
-
-        /*public static IActionResult string GenerateSignature(string dataToSign, string certificatePath, string certificatePass)
-        {
-            return Ok(await _signatureService.GenerateSignature());
-        }*/
     }
-
-
 }

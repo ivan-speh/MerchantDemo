@@ -17,6 +17,8 @@ namespace Services.Setting
 		private readonly IMemoryCache MemoryCache;
 
 		public string PrivateKeyPath { get { return GetSetting("PrivateKeyPath", String.Empty, throwExceptionIfMissing: true); } }
+		
+		public string PrivateKeyPass { get { return GetSetting("PrivateKeyPass", String.Empty, throwExceptionIfMissing: true); } }
 
 		public SettingService(AircashSimulatorContext aircashSimulatorContext, IMemoryCache memoryCache)
 		{

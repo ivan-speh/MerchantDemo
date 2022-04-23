@@ -10,3 +10,10 @@ C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\n
 C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.dll
 C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\ref\Services.Signature.dll
 C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\Domain.Entities.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\Services.Setting.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\Services.Setting.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\bin\Debug\net5.0\Domain.Entities.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.Signature\obj\Debug\net5.0\Services.Signature.csproj.CopyComplete

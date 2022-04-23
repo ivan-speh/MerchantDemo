@@ -40,7 +40,7 @@ namespace WebApi
 
             services.AddDbContext<AircashSimulatorContext>(options => options.UseSqlServer(Configuration["DefaultConnection:ConnectionStrings"]), ServiceLifetime.Transient);
             services.AddTransient<ITransactionService, TransactionService>();
-            //services.AddTransient<ISignatureService, SignatureService>(); //error
+            services.AddTransient<ISignatureService, SignatureService>();
             services.AddTransient<ISettingService, SettingService>();
             services.AddMemoryCache();
         }

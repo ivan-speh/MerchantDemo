@@ -1408,6 +1408,9 @@
         }
       },
       "Services.Signature/1.0.0": {
+        "dependencies": {
+          "Services.Setting": "1.0.0"
+        },
         "runtime": {
           "Services.Signature.dll": {}
         },

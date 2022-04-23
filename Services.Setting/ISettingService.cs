@@ -12,5 +12,6 @@ namespace Services.Setting
         Task RefreshSettings();
 
         string PrivateKeyPath { get; }
+        string PrivateKeyPass { get; }
     }
 }

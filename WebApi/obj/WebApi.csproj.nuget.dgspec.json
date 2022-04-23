@@ -239,7 +239,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj": {
+                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
