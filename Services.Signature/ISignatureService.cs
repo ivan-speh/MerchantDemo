@@ -8,8 +8,6 @@ namespace Services.Signature
 {
     public interface ISignatureService
     {
-        Task<List<SignatureService>> GenerateSignature();
-        //public static string GenerateSignature();
-        //static string GenerateSignature(string dataToSign, string certificatePath, string certificatePass);
+        string GenerateSignature(string dataToSign);  
     }
 }

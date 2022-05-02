@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Services.Setting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Services.Signature
 {
-    public class SignatureService //: ISignatureService
+    public class SignatureService : ISignatureService 
     {
         /// <summary>
         /// Method used to generate signatures based on input data and selected certificates.
@@ -17,8 +18,19 @@ namespace Services.Signature
         /// <param name="certificatePath">Physical path to certificate.</param>
         /// <param name="certificatePass">Certificate password.</param>
         /// <returns>Return generated signature.</returns>
-        public static string GenerateSignature(string dataToSign, string certificatePath, string certificatePass)
+       
+        private readonly ISettingService _settingService;
+
+        public  SignatureService(ISettingService settingService)
         {
+            _settingService = settingService;
+        }
+
+        public /*static*/ string GenerateSignature(string dataToSign)
+        {
+            var certificatePath = _settingService.PrivateKeyPath;
+            var certificatePass = _settingService.PrivateKeyPass;
+
             var certificate = new X509Certificate2(certificatePath, certificatePass, X509KeyStorageFlags.Exportable);
             // Create byte arrays to hold original, encrypted, and decrypted data.
             var originalData = Encoding.UTF8.GetBytes(dataToSign);
@@ -26,9 +38,7 @@ namespace Services.Signature
 
             using (var rsa = certificate.GetRSAPrivateKey())
             {
-                dataToSign = "aaaaaa";
-                certificatePath = "C:/Users/Brigita/PrivateKeyPfxFile";
-                certificatePass = "brigita";
+                //dataToSign = "";
                 var signeddata = rsa.SignData(originalData, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
                 return Convert.ToBase64String(signeddata);
             }
@@ -56,5 +66,9 @@ namespace Services.Signature
                 return rsaAlg.VerifyData(dataToVerifyBytes, sha256, signatureBytes);
             }
         }
+
+       
+       
+
     }
 }
