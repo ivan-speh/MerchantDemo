@@ -40,9 +40,10 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GenerateSignature(string dataToSign)
+        public async Task<IActionResult> GenerateSignature()
         {
-            return Ok(await _signatureService.GenerateSignature(dataToSign));
+            return Ok(_signatureService.GenerateSignature("To potpiši"));
         }
     }
 }
+ 

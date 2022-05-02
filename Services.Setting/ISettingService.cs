@@ -13,5 +13,6 @@ namespace Services.Setting
 
         string PrivateKeyPath { get; }
         string PrivateKeyPass { get; }
+        string PartnerID { get; }
     }
 }

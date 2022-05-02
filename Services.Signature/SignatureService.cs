@@ -29,7 +29,7 @@ namespace Services.Signature
         public /*static*/ string GenerateSignature(string dataToSign)
         {
             var certificatePath = _settingService.PrivateKeyPath;
-            var certificatePass = "brigita";
+            var certificatePass = _settingService.PrivateKeyPass;
 
             var certificate = new X509Certificate2(certificatePath, certificatePass, X509KeyStorageFlags.Exportable);
             // Create byte arrays to hold original, encrypted, and decrypted data.
@@ -38,7 +38,7 @@ namespace Services.Signature
 
             using (var rsa = certificate.GetRSAPrivateKey())
             {
-                dataToSign = "aaaaaa";
+                //dataToSign = "";
                 var signeddata = rsa.SignData(originalData, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
                 return Convert.ToBase64String(signeddata);
             }

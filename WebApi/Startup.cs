@@ -16,6 +16,7 @@ using Microsoft.EntityFrameworkCore;
 using Services.Transactions;
 using Services.Signature;
 using Services.Setting;
+using Service.AircashPay;
 
 namespace WebApi
 {
@@ -43,6 +44,7 @@ namespace WebApi
             services.AddTransient<ISignatureService, SignatureService>();
             services.AddTransient<ISettingService, SettingService>();
             services.AddMemoryCache();
+            //services.AddTransient<IAircashPayService, AircashPayService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

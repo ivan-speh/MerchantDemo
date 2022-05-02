@@ -16,9 +16,11 @@ namespace Services.Setting
 		private AircashSimulatorContext AircashSimulatorContext;
 		private readonly IMemoryCache MemoryCache;
 
-		public string PrivateKeyPath { get { return GetSetting("PrivateKeyPath", String.Empty, throwExceptionIfMissing: true); } }
+		public string PrivateKeyPath { get { return GetSetting("certificatePath", String.Empty, throwExceptionIfMissing: true); } }
 		
-		public string PrivateKeyPass { get { return GetSetting("PrivateKeyPass", String.Empty, throwExceptionIfMissing: true); } }
+		public string PrivateKeyPass { get { return GetSetting("certificatePass", String.Empty, throwExceptionIfMissing: true); } }
+
+		public string PartnerID { get { return GetSetting("PartnerID", String.Empty, throwExceptionIfMissing: true); } }
 
 		public SettingService(AircashSimulatorContext aircashSimulatorContext, IMemoryCache memoryCache)
 		{
