@@ -20,6 +20,7 @@ namespace Services.Signature
         /// <returns>Return generated signature.</returns>
        
         private readonly ISettingService _settingService;
+        public static object ConvertObjectToString;
 
         public  SignatureService(ISettingService settingService)
         {
