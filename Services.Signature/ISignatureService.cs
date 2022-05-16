@@ -8,6 +8,6 @@ namespace Services.Signature
 {
     public interface ISignatureService
     {
-        string GenerateSignature(string dataToSign);  
+        string GenerateSignature(string dataToSign);
     }
 }

@@ -14,13 +14,11 @@ namespace WebApi.Controllers
     public class TransactionController : Controller
     {
         private readonly ITransactionService _transactionService;
-        private readonly ITransactionService _transactionService1;
         private readonly ISignatureService _signatureService;
 
-        public TransactionController(ITransactionService transactionService, ITransactionService transactionService1, ISignatureService signatureService)
+        public TransactionController(ITransactionService transactionService, ISignatureService signatureService)
         {
             _transactionService = transactionService;
-            _transactionService1 = transactionService1;
             _signatureService = signatureService;
         }
 
