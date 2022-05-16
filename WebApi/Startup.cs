@@ -44,7 +44,7 @@ namespace WebApi
             services.AddTransient<ISignatureService, SignatureService>();
             services.AddTransient<ISettingService, SettingService>();
             services.AddMemoryCache();
-            //services.AddTransient<IAircashPayService, AircashPayService>();
+           // services.AddTransient<IAircashPayService, AircashPayService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

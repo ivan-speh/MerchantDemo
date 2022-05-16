@@ -20,7 +20,6 @@ namespace Services.Signature
         /// <returns>Return generated signature.</returns>
        
         private readonly ISettingService _settingService;
-        public static object ConvertObjectToString;
 
         public  SignatureService(ISettingService settingService)
         {
@@ -67,9 +66,5 @@ namespace Services.Signature
                 return rsaAlg.VerifyData(dataToVerifyBytes, sha256, signatureBytes);
             }
         }
-
-       
-       
-
     }
 }

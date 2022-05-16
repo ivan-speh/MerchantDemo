@@ -22,14 +22,14 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> GeneratePartnerCode(GeneratePartnerCode generatePartnerCode)
         {
-            await _aircashPayService.GeneratePartnerCode(generatePartnerCode.PartnerID, generatePartnerCode.Amount, generatePartnerCode.CurrencyID, generatePartnerCode.PartnerTransactionID, generatePartnerCode.Description, generatePartnerCode.CodeLink, generatePartnerCode.ValidForPeriod, generatePartnerCode.LocationID);
+            await _aircashPayService.GeneratePartnerCode(generatePartnerCode.Amount, generatePartnerCode.CurrencyID, generatePartnerCode.Description);
             return Ok(generatePartnerCode);
         }
 
         [HttpPost]
         public async Task<IActionResult> ConfirmTransaction(ConfirmTransaction confirmTransaction)
         {
-            await _aircashPayService.ConfirmTransaction(confirmTransaction.PartnerID, confirmTransaction.PartnerTransactionID, confirmTransaction.Amount, confirmTransaction.CurrencyID, confirmTransaction.AircashTransactionID);
+            await _aircashPayService.ConfirmTransaction(confirmTransaction.Amount, confirmTransaction.CurrencyID, confirmTransaction.AircashTransactionID);
             return Ok(confirmTransaction);
 
         }
@@ -37,7 +37,7 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> CancelTransaction(CancelTransaction cancelTransaction)
         {
-            await _aircashPayService.CancelTransaction(cancelTransaction.PartnerID, cancelTransaction.PartnerTransactionID);
+            await _aircashPayService.CancelTransaction();
             return Ok(cancelTransaction);
         }
     }

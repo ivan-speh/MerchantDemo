@@ -26,6 +26,7 @@ namespace Services.Setting
 		{
 			AircashSimulatorContext = aircashSimulatorContext;
 			MemoryCache = memoryCache;
+
 		}
 
 		T GetSetting<T>(string key, T defaultValue, bool throwExceptionIfMissing = false)
