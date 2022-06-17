@@ -13,10 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. DataAccess", "2. DataAcc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Services", "3. Services", "{E463EBF9-BA81-4AC7-983E-E19AFAA61DC9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. WebApi", "4. WebApi", "{3956E357-2A39-467E-87EA-0E3BC46F3BB2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Presentation", "5. Presentation", "{BBE474C3-1772-4996-96C6-BC699542011A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{D35AAA76-DC49-489A-A8EE-5181293200B4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{936202AF-A408-481D-9E5B-AF230FAFDA55}"
@@ -27,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Signature", "Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Setting", "Services.Setting\Services.Setting.csproj", "{274111C3-7BF3-46AF-8853-B693FC8C1E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.AircashPay", "AircashPayService\Service.AircashPay.csproj", "{36346008-1601-42B3-83BC-34FC44219719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.AircashPay", "AircashPayService\Service.AircashPay.csproj", "{36346008-1601-42B3-83BC-34FC44219719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

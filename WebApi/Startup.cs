@@ -43,6 +43,7 @@ namespace WebApi
             services.AddTransient<ITransactionService, TransactionService>();
             services.AddTransient<ISignatureService, SignatureService>();
             services.AddTransient<ISettingService, SettingService>();
+            services.AddTransient<IAircashPayService, AircashPayService>();
             services.AddMemoryCache();
            // services.AddTransient<IAircashPayService, AircashPayService>();
         }

@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\AircashPayService\\Service.AircashPay.csproj": {
+    "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\AircashPayService\\Service.AircashPay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\AircashPayService\\Service.AircashPay.csproj",
+        "projectUniqueName": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\AircashPayService\\Service.AircashPay.csproj",
         "projectName": "Service.AircashPay",
-        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\AircashPayService\\Service.AircashPay.csproj",
-        "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\AircashPayService\\obj\\",
+        "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\AircashPayService\\Service.AircashPay.csproj",
+        "packagesPath": "C:\\Users\\IVAN-WORK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\AircashPayService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Brigita\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\IVAN-WORK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +25,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://aircash.pkgs.visualstudio.com/_packaging/Aircash/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Signature\\Services.Signature.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Signature\\Services.Signature.csproj"
               }
             }
           }
@@ -62,25 +61,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\IVAN-WORK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Brigita\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\IVAN-WORK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,14 +86,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://aircash.pkgs.visualstudio.com/_packaging/Aircash/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Domain.Entities\\Domain.Entities.csproj"
               }
             }
           }
@@ -140,25 +138,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj": {
+    "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Domain.Entities\\Domain.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Domain.Entities\\Domain.Entities.csproj",
         "projectName": "Domain.Entities",
-        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj",
-        "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\obj\\",
+        "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Domain.Entities\\Domain.Entities.csproj",
+        "packagesPath": "C:\\Users\\IVAN-WORK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Domain.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Brigita\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\IVAN-WORK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,7 +163,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://aircash.pkgs.visualstudio.com/_packaging/Aircash/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -208,25 +205,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj": {
+    "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Setting\\Services.Setting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj",
+        "projectUniqueName": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Setting\\Services.Setting.csproj",
         "projectName": "Services.Setting",
-        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj",
-        "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\obj\\",
+        "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Setting\\Services.Setting.csproj",
+        "packagesPath": "C:\\Users\\IVAN-WORK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Setting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Brigita\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\IVAN-WORK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -234,14 +230,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://aircash.pkgs.visualstudio.com/_packaging/Aircash/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -270,25 +266,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj": {
+    "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Signature\\Services.Signature.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj",
+        "projectUniqueName": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Signature\\Services.Signature.csproj",
         "projectName": "Services.Signature",
-        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj",
-        "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\obj\\",
+        "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Signature\\Services.Signature.csproj",
+        "packagesPath": "C:\\Users\\IVAN-WORK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Signature\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Brigita\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\IVAN-WORK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -296,14 +291,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://aircash.pkgs.visualstudio.com/_packaging/Aircash/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Setting\\Services.Setting.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Setting\\Services.Setting.csproj"
               }
             }
           }
@@ -332,25 +327,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Transactions\\Services.Transactions.csproj": {
+    "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Transactions\\Services.Transactions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Transactions\\Services.Transactions.csproj",
+        "projectUniqueName": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Transactions\\Services.Transactions.csproj",
         "projectName": "Services.Transactions",
-        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Transactions\\Services.Transactions.csproj",
-        "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Transactions\\obj\\",
+        "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Transactions\\Services.Transactions.csproj",
+        "packagesPath": "C:\\Users\\IVAN-WORK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Transactions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Brigita\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\IVAN-WORK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -358,14 +352,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://aircash.pkgs.visualstudio.com/_packaging/Aircash/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -394,25 +388,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\IVAN-WORK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Brigita\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\IVAN-WORK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -420,26 +413,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://aircash.pkgs.visualstudio.com/_packaging/Aircash/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\AircashPayService\\Service.AircashPay.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\AircashPayService\\Service.AircashPay.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\AircashPayService\\Service.AircashPay.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\AircashPayService\\Service.AircashPay.csproj"
               },
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Setting\\Services.Setting.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Setting\\Services.Setting.csproj"
               },
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Signature\\Services.Signature.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Signature\\Services.Signature.csproj"
               },
-              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Transactions\\Services.Transactions.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Transactions\\Services.Transactions.csproj"
+              "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Transactions\\Services.Transactions.csproj": {
+                "projectPath": "C:\\Users\\IVAN-WORK\\Source\\Repos\\MerchantDemo\\Services.Transactions\\Services.Transactions.csproj"
               }
             }
           }
@@ -487,7 +480,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

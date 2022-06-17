@@ -10,3 +10,15 @@ C:\Users\Brigita\source\repos\AircashMerchantDemo\Domain.Entities\obj\Debug\net5
 C:\Users\Brigita\source\repos\AircashMerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.dll
 C:\Users\Brigita\source\repos\AircashMerchantDemo\Domain.Entities\obj\Debug\net5.0\ref\Domain.Entities.dll
 C:\Users\Brigita\source\repos\AircashMerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.pdb
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\bin\Debug\net5.0\Domain.Entities.deps.json
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\bin\Debug\net5.0\Domain.Entities.dll
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\bin\Debug\net5.0\ref\Domain.Entities.dll
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\bin\Debug\net5.0\Domain.Entities.pdb
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.csprojAssemblyReference.cache
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.AssemblyInfoInputs.cache
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.AssemblyInfo.cs
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.dll
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\obj\Debug\net5.0\ref\Domain.Entities.dll
+C:\Users\IVAN-WORK\Source\Repos\MerchantDemo\Domain.Entities\obj\Debug\net5.0\Domain.Entities.pdb
